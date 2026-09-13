@@ -15,7 +15,7 @@ public class BankAccount {
     public void setAccountID(int accountID){ this.accountID = accountID; }
 
     // Constructor sets balance to 0
-    BankAccount(String firstName, String lastName, int accountID) {
+    public BankAccount(String firstName, String lastName, int accountID) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.accountID = accountID;
